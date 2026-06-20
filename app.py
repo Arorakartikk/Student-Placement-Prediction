@@ -271,8 +271,6 @@ st.divider()
 st.caption(
     "Developed by Kartik Arora | Machine Learning Placement Prediction Project | Student Placement Prediction System"
 )
-       
-
-# python -m streamlit run app.py    
+       
 
 
