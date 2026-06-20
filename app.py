@@ -230,12 +230,7 @@ if predict_btn:
 
         confidence = probability[1] * 100
 
-        st.success(f"🎉 {name} is likely to be PLACED")
-
-        st.metric(
-            "Placement Confidence",
-            f"{confidence:.2f}%"
-        )
+        st.success(f"🎉 {name} is likely to be PLACED")
 
         st.progress(float(probability[1]))
 
@@ -243,12 +238,7 @@ if predict_btn:
     else:
         confidence = probability[0] * 100
 
-        st.error(f"❌ {name} is likely to be NOT PLACED")
-
-        st.metric(
-            "Prediction Confidence",
-            f"{confidence:.2f}%"
-        )
+        st.error(f"❌ {name} is likely to be NOT PLACED")
 
         st.progress(float(probability[0]))
 
