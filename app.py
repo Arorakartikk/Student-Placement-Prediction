@@ -89,11 +89,7 @@ importance_df = importance_df.sort_values(
     by="Importance",
     ascending=False
 )
-name = st.text_input("Student Name")
-
-ssc_p = st.number_input("SSC Percentage", min_value=0.0, max_value=100.0) #Creates a box where users can enter a number.
-st.write("SSC Percentage:", ssc_p)
-
+name = st.text_input("Student Name")
 
 gender = st.selectbox( # Creates box where user can select gender 
     "Gender",
