@@ -6,6 +6,9 @@ The Student Placement Prediction System is a Machine Learning web application de
 The project predicts whether a student is likely to be placed based on academic performance, work experience, employability test scores, educational background, and MBA specialization.
 
 The trained model is deployed using Streamlit, allowing users to enter student details and receive real-time placement predictions along with confidence scores.
+🌐 Live Demo
+
+Live Application:https://student-placement-prediction-webapp.streamlit.app/
 
 🎯 Project Objective
 
