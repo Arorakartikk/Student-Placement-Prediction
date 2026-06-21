@@ -99,7 +99,7 @@ gender = st.selectbox( # Creates box where user can select gender
 ssc_p = st.number_input( # Creates a box for numbers.
     "Secondary School Certificate (SSC) Percentage",
     min_value=0.0,
-    max_value=100.0
+    max_value=100.0,
      key="ssc"
 )
 
