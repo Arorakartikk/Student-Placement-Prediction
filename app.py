@@ -104,7 +104,7 @@ ssc_p = st.number_input( # Creates a box for numbers.
 )
 
 ssc_b = st.selectbox(
-    "SSC Board",
+    "Secondary School Certificate (SSC) Percentage Board",
     ["Central", "Others"],
     key="ssc_b"
 )
@@ -116,13 +116,13 @@ hsc_p = st.number_input(
     key="hsc"
 )
 hsc_b = st.selectbox(
-    "HSC Board",
+    "Higher Secondary Certificate (HSC) Board",
     ["Central", "Others"],
     key="hsc_b"
 )
 
 hsc_s = st.selectbox(
-    "HSC Stream",
+    ""Higher Secondary Certificate (HSC) Stream",
     ["Commerce", "Science", "Arts"],
     key="hsc_s"
 )
