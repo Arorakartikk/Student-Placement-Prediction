@@ -122,7 +122,7 @@ hsc_b = st.selectbox(
 )
 
 hsc_s = st.selectbox(
-    ""Higher Secondary Certificate (HSC) Stream",
+    "Higher Secondary Certificate (HSC) Stream",
     ["Commerce", "Science", "Arts"],
     key="hsc_s"
 )
