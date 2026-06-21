@@ -147,8 +147,8 @@ sns.boxplot(x='status', y='etest_p')
 # 🧠 Feature Engineering
 After preprocessing and encoding, the final features used for model training were:
 * gender
-* ssc_p
-* hsc_p
+* ssc_p (Secondary School Certificate Percentage)
+* hsc_p (Higher Secondary Certificate Percentage)
 * degree_p
 * workex
 * etest_p
@@ -237,11 +237,11 @@ A professional web interface was developed using Streamlit.
 ## User Inputs
 * Student Name
 * Gender
-* SSC Percentage
-* SSC Board
-* HSC Percentage
-* HSC Board
-* HSC Stream
+* Secondary School Certificate (SSC) Percentage
+* Secondary School Certificate (SSC) Board
+* Higher Secondary Certificate (HSC) Percentage
+* Higher Secondary Certificate (HSC) Board
+* Higher Secondary Certificate (HSC) Stream
 * Degree Percentage
 * Degree Type
 * Work Experience
