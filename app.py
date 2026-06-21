@@ -89,19 +89,20 @@ importance_df = importance_df.sort_values(
     by="Importance",
     ascending=False
 )
-name = st.text_input("Student Name")
+name = st.text_input("Student Name")
+
 
 gender = st.selectbox( # Creates box where user can select gender 
     "Gender",
     ["Male", "Female"]
 )
-
 ssc_p = st.number_input( # Creates a box for numbers.
-    "SSC Percentage",
+    "Secondary School Certificate (SSC) Percentage",
     min_value=0.0,
-    max_value=100.0,
-    key="ssc"
+    max_value=100.0
+     key="ssc"
 )
+
 ssc_b = st.selectbox(
     "SSC Board",
     ["Central", "Others"],
@@ -109,7 +110,7 @@ ssc_b = st.selectbox(
 )
 
 hsc_p = st.number_input(
-    "HSC Percentage",
+    "Higher Secondary Certificate (HSC) Percentage",
     min_value=0.0,
     max_value=100.0,
     key="hsc"
@@ -230,7 +231,8 @@ if predict_btn:
 
         confidence = probability[1] * 100
 
-        st.success(f"🎉 {name} is likely to be PLACED")
+        st.success(f"🎉 {name} is likely to be PLACED")
+
 
         st.progress(float(probability[1]))
 
@@ -238,7 +240,8 @@ if predict_btn:
     else:
         confidence = probability[0] * 100
 
-        st.error(f"❌ {name} is likely to be NOT PLACED")
+        st.error(f"❌ {name} is likely to be NOT PLACED")
+
 
         st.progress(float(probability[0]))
 
@@ -271,6 +274,7 @@ st.divider()
 st.caption(
     "Developed by Kartik Arora | Machine Learning Placement Prediction Project | Student Placement Prediction System"
 )
-       
+       
+
 
 
